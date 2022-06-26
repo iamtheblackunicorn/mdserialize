@@ -25,10 +25,10 @@ Be sure to also add the `"type":"module"` flag to your project's manifest, `pack
 ***MD Serialize*** offers the following functions:
 
 - `listDir(path)`: Returns the contents of a directory as a list.
-- `nukeFrontMatter(lineList, indexArray)`: Removes all list items pertaining to the Markdown string's frontmatter.
+- `nukeFrontMatter(lineList, indexArray)`: Removes all list items pertaining to the Markdownstring's frontmatter.
 - `readFile(file)`: Reads the contents of a file and returns it as a string.
-- `splitListForMarkdown(subjectList, indexArray)`: Returns the content of a Markdown string without the frontmatter as a list.
-- `serialize(mdString)`: Serializes a Markdown file as a Javascript Object.
+- `splitListForMarkdown(subjectList, indexArray)`: Returns the content of a Markdownstring without the frontmatter as a list.
+- `serialize(mdString)`: Serializes a Markdownstring as a Javascript Object.
 
 ### Example
 

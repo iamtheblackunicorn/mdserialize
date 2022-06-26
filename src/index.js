@@ -16,7 +16,7 @@ export function listDir(path){
 }
 
 // Removes all list items pertaining to the
-// Markdown string's frontmatter.
+// Markdownstring's frontmatter.
 export function nukeFrontMatter(lineList, indexArray){
     var lineListCopy = lineList;
     var start = indexArray[0];
@@ -31,7 +31,7 @@ export function readFile(file){
     return fs.readFileSync(file).toString();
 }
 
-// Returns the content of a Markdown string without the
+// Returns the content of a Markdownstring without the
 // frontmatter as a list.
 export function splitListForMarkdown(subjectList, indexArray){
     var rangeEnd = indexArray[1] + 1;
@@ -45,7 +45,7 @@ export function splitListForMarkdown(subjectList, indexArray){
     return result;
 }
 
-// Serializes a Markdown file as
+// Serializes a Markdownstring as
 // a Javascript Object.
 export function serialize(mdString){
     var result = new Object();
