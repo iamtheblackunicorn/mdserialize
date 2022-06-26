@@ -1,4 +1,4 @@
-name: Zeppo CI
+name: MD Serialize CI
 on:
   push:
     branches: [ main ]
