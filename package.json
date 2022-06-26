@@ -1,9 +1,22 @@
 {
   "name": "mdserialize",
-  "description":"A small package to serialize Markdown in Javascript.",
   "version": "1.0.0",
-  "main": "index.js",
-  "type":"module",
-  "author": "",
-  "license": "MIT"
+  "description": "A small package to serialize Markdown in Javascript.",
+  "main": "./src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamtheblackunicorn/mdserialize.git"
+  },
+  "keywords": [
+    "markdown",
+    "blogging",
+    "serialization"
+  ],
+  "type": "module",
+  "author": "Alexander Abraham <youreccentricity@outlook.com> (http://angeldustduke.art)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iamtheblackunicorn/mdserialize/issues"
+  },
+  "homepage": "https://github.com/iamtheblackunicorn/mdserialize#readme"
 }
