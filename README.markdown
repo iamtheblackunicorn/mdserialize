@@ -83,6 +83,11 @@ $ node .
 - Upload to GitHub.
 - Upload to NPM.
 
+### Version 1.1.0
+
+- Critical fixes.
+- Fixed imports and exports.
+
 ## NOTE :scroll:
 
 - *MD Serialize :scroll: :ribbon: :heart_on_fire:* by Alexander Abraham :black_heart: a.k.a. *"The Black Unicorn" :unicorn:*
