@@ -71,3 +71,13 @@ export function serialize(mdString){
     }
     return result;
 }
+
+// Exprting all
+// available functions.
+export default {
+    listDir,
+    readFile,
+    serialize,
+    nukeFrontMatter,
+    splitListForMarkdown
+};
